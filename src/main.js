@@ -6,10 +6,7 @@ let config = {
     width: 320,
     height: 240,
     physics: {  
-        default: 'arcade',
-        arcade: {
-            debug: false
-        }
+        default: 'arcade'
     },
     zoom: 2,
     scene: [ Overworld ]
